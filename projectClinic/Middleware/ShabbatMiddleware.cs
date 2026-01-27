@@ -13,7 +13,7 @@
             {
                 context.Response.StatusCode = StatusCodes.Status400BadRequest;
                 context.Response.ContentType = "text/plain; charset=utf-8";
-                await context.Response.WriteAsync("אין הזמנת תורים בשבת קודש! במקרה דחוף יש לפנות לביה''ח");
+                await context.Response.WriteAsync("המרפאה אינה פעילה בשבת קודש! במקרה דחוף יש לפנות לביה''ח");
                 return;
             }
             await _next(context);
