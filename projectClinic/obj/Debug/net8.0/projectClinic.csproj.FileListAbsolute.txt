@@ -608,3 +608,5 @@ E:\Net Core\new\projectClinic\projectClinic\obj\Debug\net8.0\projectClinic.pdb
 E:\Net Core\new\projectClinic\projectClinic\obj\Debug\net8.0\projectClinic.genruntimeconfig.cache
 E:\Net Core\new\projectClinic\projectClinic\obj\Debug\net8.0\ref\projectClinic.dll
 E:\Net Core\new\projectClinic\projectClinic\obj\Debug\net8.0\projectClinic.sourcelink.json
+T:\Group B\NetCore\יעל רפאלוב\projectClinic\projectClinic\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+T:\Group B\NetCore\יעל רפאלוב\projectClinic\projectClinic\obj\Debug\net8.0\projectClinic.sourcelink.json

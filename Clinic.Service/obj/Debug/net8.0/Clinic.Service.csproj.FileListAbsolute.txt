@@ -91,3 +91,4 @@ E:\Net Core\new\projectClinic\Clinic.Service\obj\Debug\net8.0\Clinic.Service.dll
 E:\Net Core\new\projectClinic\Clinic.Service\obj\Debug\net8.0\refint\Clinic.Service.dll
 E:\Net Core\new\projectClinic\Clinic.Service\obj\Debug\net8.0\Clinic.Service.pdb
 E:\Net Core\new\projectClinic\Clinic.Service\obj\Debug\net8.0\ref\Clinic.Service.dll
+T:\Group B\NetCore\יעל רפאלוב\projectClinic\Clinic.Service\obj\Debug\net8.0\Clinic.Service.sourcelink.json

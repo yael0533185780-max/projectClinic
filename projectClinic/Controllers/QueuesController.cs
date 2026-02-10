@@ -5,6 +5,7 @@ using Clinic.Service;
 using projectClinic.Models;
 using AutoMapper;
 using Clinic.Core.DTOs;
+using Microsoft.AspNetCore.Authorization;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace projectClinic.Controllers
@@ -21,6 +22,8 @@ namespace projectClinic.Controllers
             _queueService = queueService;
             _mapper = mapper;
         }
+        [Authorize]
+
         // GET: api/<QueuesController>
         [HttpGet]
         public async Task<List<QueueDTO>> Get()
@@ -41,12 +44,12 @@ namespace projectClinic.Controllers
                 return NotFound();
             return Ok(queue);
         }
-
+        [Authorize]
         // POST api/<QueuesController>
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] QueuePostModel value)
         {
-            var q = new Queues { Date = value.Date,Starttime=value.Starttime,Endtime=value.Endtime,DoctorId=value.DoctorId,ClientId=value.ClientId };
+            var q = _mapper.Map<Queues>(value);
             var queue =await _queueService.GetQueuesByDateAsync(value.Date, value.DoctorId);
             if (queue == null)
             {
@@ -55,12 +58,13 @@ namespace projectClinic.Controllers
             }
             return Conflict();
         }
+        [Authorize]
 
         // PUT api/<QueuesController>/5
         [HttpPut("{date},{doctorId}")]
         public async Task<ActionResult> Put(DateTime date,int doctorId, [FromBody] QueuePostModel value)
         {
-            var queue = new Queues { Date = value.Date, Starttime = value.Starttime, Endtime = value.Endtime, DoctorId = value.DoctorId, ClientId = value.ClientId };
+            var queue = _mapper.Map<Queues>(value); ;
 
             var q =await _queueService.GetQueuesByDateAsync(date, doctorId);
             if (q == null)
@@ -72,6 +76,10 @@ namespace projectClinic.Controllers
         }
 
         // DELETE api/<QueuesController>/5
+
+
+        [Authorize]
+
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {

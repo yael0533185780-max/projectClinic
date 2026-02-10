@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {}
+    "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {}
   },
   "projects": {
-    "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
+    "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
+        "projectUniqueName": "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
         "projectName": "Clinic.Core",
-        "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
-        "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\obj\\",
+        "projectPath": "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
+        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
+        "outputPath": "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\This User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,24 +71,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {
+    "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
+        "projectUniqueName": "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
         "projectName": "Clinic.Service",
-        "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
-        "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\obj\\",
+        "projectPath": "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
+        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
+        "outputPath": "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\This User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
-                "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj"
+              "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
+                "projectPath": "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\Clinic.Core.csproj"
               }
             }
           }
@@ -109,6 +114,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -130,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

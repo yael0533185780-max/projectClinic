@@ -5,6 +5,7 @@ using Clinic.Service;
 using projectClinic.Models;
 using AutoMapper;
 using Clinic.Core.DTOs;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -22,6 +23,8 @@ namespace projectClinic.Controllers
             _doctorService = doctorService;
             _mapper = mapper;
         }
+        [Authorize]
+
         [HttpGet]
         public async Task<List<DoctorDTO>> Get()
         {
@@ -44,10 +47,11 @@ namespace projectClinic.Controllers
         }
 
         // POST api/<DoctorsController>
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] DoctorsPostModel value)
         {
-            var doctor = new Doctors { Name = value.Name, Phone = value.Phone, Email = value.Email, Businesshours = value.Businesshours };
+            var doctor = _mapper.Map<Doctors>(value); 
 
             var d =await _doctorService.GetDoctorByEmailAsync(value.Email);
             if (d == null)
@@ -59,10 +63,12 @@ namespace projectClinic.Controllers
         }
 
         // PUT api/<DoctorsController>/5
+        [Authorize]
+
         [HttpPut("{id}")]
         public async Task<ActionResult> Put(int id, [FromBody] DoctorsPostModel value)
         {
-            var doctor = new Doctors { Name = value.Name, Phone = value.Phone, Email = value.Email, Businesshours = value.Businesshours };
+            var doctor = _mapper.Map<Doctors>(value); ;
 
             var d =await _doctorService.GetDoctorByIdAsync(id);
             if (d == null)
@@ -74,6 +80,8 @@ namespace projectClinic.Controllers
         }
 
         // DELETE api/<DoctorsController>/5
+        [Authorize]
+
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {

@@ -877,3 +877,5 @@ T:\Group B\NetCore\יעל רפאלוב\MprojectClinic\TestClinic\obj\Debug\net8.
 T:\Group B\NetCore\יעל רפאלוב\MprojectClinic\TestClinic\obj\Debug\net8.0\TestClinic.pdb
 T:\Group B\NetCore\יעל רפאלוב\MprojectClinic\TestClinic\obj\Debug\net8.0\TestClinic.genruntimeconfig.cache
 T:\Group B\NetCore\יעל רפאלוב\MprojectClinic\TestClinic\obj\Debug\net8.0\ref\TestClinic.dll
+T:\Group B\NetCore\יעל רפאלוב\projectClinic\TestClinic\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+T:\Group B\NetCore\יעל רפאלוב\projectClinic\TestClinic\obj\Debug\net8.0\TestClinic.sourcelink.json
