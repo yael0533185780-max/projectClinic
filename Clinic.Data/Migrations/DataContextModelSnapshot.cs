@@ -108,7 +108,64 @@ namespace Clinic.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ClientId");
+
+                    b.HasIndex("DoctorId");
+
                     b.ToTable("queues");
+                });
+
+            modelBuilder.Entity("Clinic.Core.Entities.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("user");
+                });
+
+            modelBuilder.Entity("Clinic.Core.Entities.Queues", b =>
+                {
+                    b.HasOne("Clinic.Core.Entities.Clients", "Client")
+                        .WithMany("Queues")
+                        .HasForeignKey("ClientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Clinic.Core.Entities.Doctors", "Doctor")
+                        .WithMany("Queues")
+                        .HasForeignKey("DoctorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Client");
+
+                    b.Navigation("Doctor");
+                });
+
+            modelBuilder.Entity("Clinic.Core.Entities.Clients", b =>
+                {
+                    b.Navigation("Queues");
+                });
+
+            modelBuilder.Entity("Clinic.Core.Entities.Doctors", b =>
+                {
+                    b.Navigation("Queues");
                 });
 #pragma warning restore 612, 618
         }

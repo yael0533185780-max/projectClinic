@@ -127,11 +127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
+      "projectUniqueName": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
       "projectName": "Clinic.Core",
-      "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
+      "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
       "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
-      "outputPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\obj\\",
+      "outputPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

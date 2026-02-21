@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Net Core\\new\\projectClinic\\TestClinic\\TestClinic.csproj": {}
+    "D:\\Net Core\\projectClinic\\TestClinic\\TestClinic.csproj": {}
   },
   "projects": {
-    "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
+    "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
+        "projectUniqueName": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
         "projectName": "Clinic.Core",
-        "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
+        "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
         "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\obj\\",
+        "outputPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "E:\\Net Core\\new\\projectClinic\\Clinic.Data\\Clinic.Data.csproj": {
+    "D:\\Net Core\\projectClinic\\Clinic.Data\\Clinic.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\new\\projectClinic\\Clinic.Data\\Clinic.Data.csproj",
+        "projectUniqueName": "D:\\Net Core\\projectClinic\\Clinic.Data\\Clinic.Data.csproj",
         "projectName": "Clinic.Data",
-        "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Data\\Clinic.Data.csproj",
+        "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Data\\Clinic.Data.csproj",
         "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Data\\obj\\",
+        "outputPath": "D:\\Net Core\\projectClinic\\Clinic.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
-                "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj"
+              "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
+                "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {
+    "D:\\Net Core\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
+        "projectUniqueName": "D:\\Net Core\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
         "projectName": "Clinic.Service",
-        "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
+        "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
         "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\obj\\",
+        "outputPath": "D:\\Net Core\\projectClinic\\Clinic.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -175,8 +175,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
-                "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj"
+              "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
+                "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj"
               }
             }
           }
@@ -210,14 +210,14 @@
         }
       }
     },
-    "E:\\Net Core\\new\\projectClinic\\projectClinic\\projectClinic.csproj": {
+    "D:\\Net Core\\projectClinic\\projectClinic\\projectClinic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\new\\projectClinic\\projectClinic\\projectClinic.csproj",
+        "projectUniqueName": "D:\\Net Core\\projectClinic\\projectClinic\\projectClinic.csproj",
         "projectName": "projectClinic",
-        "projectPath": "E:\\Net Core\\new\\projectClinic\\projectClinic\\projectClinic.csproj",
+        "projectPath": "D:\\Net Core\\projectClinic\\projectClinic\\projectClinic.csproj",
         "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\new\\projectClinic\\projectClinic\\obj\\",
+        "outputPath": "D:\\Net Core\\projectClinic\\projectClinic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -239,14 +239,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
-                "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj"
+              "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
+                "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj"
               },
-              "E:\\Net Core\\new\\projectClinic\\Clinic.Data\\Clinic.Data.csproj": {
-                "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Data\\Clinic.Data.csproj"
+              "D:\\Net Core\\projectClinic\\Clinic.Data\\Clinic.Data.csproj": {
+                "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Data\\Clinic.Data.csproj"
               },
-              "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {
-                "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj"
+              "D:\\Net Core\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {
+                "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Service\\Clinic.Service.csproj"
               }
             }
           }
@@ -261,9 +261,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.22, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -299,14 +307,14 @@
         }
       }
     },
-    "E:\\Net Core\\new\\projectClinic\\TestClinic\\TestClinic.csproj": {
+    "D:\\Net Core\\projectClinic\\TestClinic\\TestClinic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\new\\projectClinic\\TestClinic\\TestClinic.csproj",
+        "projectUniqueName": "D:\\Net Core\\projectClinic\\TestClinic\\TestClinic.csproj",
         "projectName": "TestClinic",
-        "projectPath": "E:\\Net Core\\new\\projectClinic\\TestClinic\\TestClinic.csproj",
+        "projectPath": "D:\\Net Core\\projectClinic\\TestClinic\\TestClinic.csproj",
         "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\new\\projectClinic\\TestClinic\\obj\\",
+        "outputPath": "D:\\Net Core\\projectClinic\\TestClinic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -328,8 +336,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Net Core\\new\\projectClinic\\projectClinic\\projectClinic.csproj": {
-                "projectPath": "E:\\Net Core\\new\\projectClinic\\projectClinic\\projectClinic.csproj"
+              "D:\\Net Core\\projectClinic\\projectClinic\\projectClinic.csproj": {
+                "projectPath": "D:\\Net Core\\projectClinic\\projectClinic\\projectClinic.csproj"
               }
             }
           }

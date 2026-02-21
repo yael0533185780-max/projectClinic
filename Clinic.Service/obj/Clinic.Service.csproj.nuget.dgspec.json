@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {}
+    "D:\\Net Core\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {}
   },
   "projects": {
-    "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
+    "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
+        "projectUniqueName": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
         "projectName": "Clinic.Core",
-        "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
+        "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
         "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\obj\\",
+        "outputPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {
+    "D:\\Net Core\\projectClinic\\Clinic.Service\\Clinic.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
+        "projectUniqueName": "D:\\Net Core\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
         "projectName": "Clinic.Service",
-        "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
+        "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Service\\Clinic.Service.csproj",
         "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Service\\obj\\",
+        "outputPath": "D:\\Net Core\\projectClinic\\Clinic.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
-                "projectPath": "E:\\Net Core\\new\\projectClinic\\Clinic.Core\\Clinic.Core.csproj"
+              "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
+                "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj"
               }
             }
           }

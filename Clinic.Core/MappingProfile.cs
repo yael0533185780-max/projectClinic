@@ -10,13 +10,16 @@ using System.Threading.Tasks;
 
 namespace Clinic.Core
 {
-    public class MappingProfile:Profile
+    public class MappingProfile : Profile
     {
         public MappingProfile()
         {
             CreateMap<Clients, ClientDTO>().ReverseMap();
             CreateMap<Doctors, DoctorDTO>().ReverseMap();
             CreateMap<Queues, QueueDTO>().ReverseMap();
+
+          
         }
     }
+
 }
