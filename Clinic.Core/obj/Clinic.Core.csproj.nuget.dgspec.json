@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {}
+    "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {}
   },
   "projects": {
-    "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
+    "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
+        "projectUniqueName": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
         "projectName": "Clinic.Core",
-        "projectPath": "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\obj\\",
+        "projectPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
+        "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
+        "outputPath": "D:\\Net Core\\projectClinic\\Clinic.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\This User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -71,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

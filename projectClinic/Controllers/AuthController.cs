@@ -30,8 +30,13 @@ namespace Student.Controllers
             {
                 var claims = new List<Claim>()
         {
+<<<<<<< HEAD
         new Claim(ClaimTypes.Name, user.UserName),
         new Claim(ClaimTypes.Role, user.Role.ToString())
+=======
+        new Claim(ClaimTypes.Name, "Rachel"),
+        new Claim(ClaimTypes.Role, "teacher")
+>>>>>>> 6600628a51917152b2e1cddcee883bbd290af2a4
          };
 
                 var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]));

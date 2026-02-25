@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FfO5dZ0W+rc=",
+  "dgSpecHash": "p0Bx7cOFWkeG16JK1shT1dLy6T8R7ZgjMqjo5hKDc/rBSgtmxhTf1Ozek4anNxxdeERG2nGEpPN+JkOxILx4+w==",
   "success": true,
-  "projectFilePath": "T:\\Group B\\NetCore\\יעל רפאלוב\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
+  "projectFilePath": "D:\\Net Core\\projectClinic\\Clinic.Core\\Clinic.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\student\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
-    "C:\\Users\\student\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\This User\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\This User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
