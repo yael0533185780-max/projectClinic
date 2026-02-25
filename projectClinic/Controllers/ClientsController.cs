@@ -4,6 +4,8 @@ using Clinic.Core.Services;
 using projectClinic.Models;
 using AutoMapper;
 using Clinic.Core.DTOs;
+using Microsoft.AspNetCore.Authorization;
+using Clinic.Service;
 
 
 
@@ -19,13 +21,15 @@ namespace projectClinic.Controllers
         private readonly IMapper _mapper;
 
         private readonly IClientService _clientService;
+        private readonly IUserService _userService;
 
-        public ClientsController(IClientService clientService, IMapper mapper)
+        public ClientsController(IClientService clientService, IMapper mapper,IUserService userService)
         {
             _clientService = clientService;
+            _userService=userService;
             _mapper = mapper;
         }
-
+        [Authorize]
         [HttpGet]
         public async Task<List<ClientDTO>> Get()
         {
@@ -52,7 +56,9 @@ namespace projectClinic.Controllers
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] ClientsPostModel value)
         {
-            var c=new Clients {Name=value.Name,Phone=value.Phone,Email=value.Email,City=value.City,Address=value.Address };
+            var user = new User { UserName = value.Name, Password = value.password, Role = eRole.client };
+            var User = await _userService.AddUserAsync(user);
+            var c = _mapper.Map<Clients>(value); 
             var clients = await _clientService.GetClientByEmailAsync(value.Email);
             if (clients == null)
             {
@@ -62,10 +68,13 @@ namespace projectClinic.Controllers
              return Conflict();
         }
         // PUT api/<ClientsController>/5
+        [Authorize]
+
         [HttpPut("{id}")]
+
         public async Task<ActionResult> Put(int id, [FromBody] ClientsPostModel value)
         {
-            var c = new Clients { Name = value.Name, Phone = value.Phone, Email = value.Email, City = value.City, Address = value.Address };
+            var c = _mapper.Map<Clients>(value); ;
             var clients = await _clientService.GetClientByIdAsync(id);
             if (clients == null)
             {
@@ -75,6 +84,7 @@ namespace projectClinic.Controllers
             return Ok(c);
         }
         // DELETE api/<ClientsController>/5
+        [Authorize]
         [HttpDelete("{id}")]
 
         public async Task<ActionResult> Delete(int id)

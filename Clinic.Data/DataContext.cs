@@ -12,6 +12,7 @@ namespace Clinic.Data
         public DbSet<Doctors> doctors { get; set; }
 
         public DbSet<Queues> queues { get; set; }
+        public DbSet<User> user { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

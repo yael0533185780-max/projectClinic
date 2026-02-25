@@ -101,3 +101,4 @@ E:\Net Core\new\projectClinic\Clinic.Data\obj\Debug\net8.0\refint\Clinic.Data.dl
 E:\Net Core\new\projectClinic\Clinic.Data\obj\Debug\net8.0\Clinic.Data.pdb
 E:\Net Core\new\projectClinic\Clinic.Data\obj\Debug\net8.0\Clinic.Data.genruntimeconfig.cache
 E:\Net Core\new\projectClinic\Clinic.Data\obj\Debug\net8.0\ref\Clinic.Data.dll
+T:\Group B\NetCore\יעל רפאלוב\projectClinic\Clinic.Data\obj\Debug\net8.0\Clinic.Data.sourcelink.json
